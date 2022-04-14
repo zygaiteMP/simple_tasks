@@ -1,0 +1,14 @@
+name: tasks_repository
+description: Repo to handle task requests.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  tasks_api:
+    path: ../tasks_api
+
+dev_dependencies:
+  test: ^1.20.2

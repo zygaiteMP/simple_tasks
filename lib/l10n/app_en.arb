@@ -1,0 +1,15 @@
+{
+  "appTitle": "Simple Task List",
+  "editTaskDetailsLabel": "Details",
+  "editTaskCompletedLabel": "Completed",
+  "tasksEmptyTitle": "Create a new task to see the list.",
+  "tasksFabTitleAdd": "Create a new task to see the list.",
+  "editTaskTitleEdit": "Edit task",
+  "editTaskTitleCreate": "Create a task",
+  "editTaskFabTitleEdit": "Save task",
+  "editTaskFabTitleCreate": "Create task",
+  "tasksLoadErrorTitle": "Failed to load any tasks.",
+  "tasksTitle": "Task list",
+  "alertDetailsMissingTitle": "Details field is empty",
+  "alertDetailsMissingDescription": "In order to save a task, task details must be provided."
+}

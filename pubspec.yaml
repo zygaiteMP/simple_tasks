@@ -1,0 +1,36 @@
+name: tasks
+description: Flutter application to manage simple tasks list.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.0.1
+  flutter_bloc: ^8.0.0
+  flutter_services_binding: ^0.1.0
+  local_storage_tasks_api:
+    path: packages/local_storage_tasks_api
+  tasks_api:
+    path: packages/tasks_api
+  tasks_repository:
+    path: packages/tasks_repository
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+dev_dependencies:
+  bloc_test: ^9.0.1
+  mockingjay: ^0.2.0
+#  mocktail: ^0.2.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  uses-material-design: true
+  generate: true
