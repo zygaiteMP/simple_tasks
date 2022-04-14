@@ -2,15 +2,22 @@
 
 Flutter application to manage simple tasks list.
 
-## Getting Started
+## Assigment
+* Create a Flutter application to manage simple tasks list. 
+* The user should be able to:
+*   Add task
+*   Remove task
+*   Edit task
+*   Mark task as completed and back to not-completed.
+* The application should:
+*   Be runnable in Android, iOS, Web
+*   Separate Views from Business Logic and Data layers
+*   Have running, passable tests. With as little as possible Mocks.
+*   Use as less dependencies as possible.
+*   Not lag.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## About app
+Architecture: Bloc
+Designs are super simple as there were no guidelines
+Test coverage still WIP.
