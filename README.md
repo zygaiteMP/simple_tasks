@@ -17,7 +17,7 @@ Flutter application to manage simple tasks list.
 *   Not lag.
 
 
-## About app
-Architecture: Bloc
-Designs are super simple as there were no guidelines
-Test coverage still WIP.
+## About app  
+Architecture: Bloc  
+Designs are super simple as there were no guidelines  
+Test coverage still WIP.  
